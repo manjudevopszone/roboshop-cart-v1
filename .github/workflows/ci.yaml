@@ -2,4 +2,4 @@ name: Cart CI
 on: [push]
 jobs:
   call-common:
-    uses: manjudevopszone/github-actions-reusable/.github/workflows/ci.yaml
+    uses: manjudevopszone/github-actions-reusable/.github/workflows/ci.yaml@main
