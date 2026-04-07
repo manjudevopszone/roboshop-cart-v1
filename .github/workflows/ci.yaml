@@ -1,0 +1,9 @@
+name: Cart CI
+on: [push]
+jobs:
+  buid:
+    runs-on: self-hosted
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v5
+      - run: echo build
