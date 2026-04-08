@@ -1,9 +1,8 @@
-name: Cart CI-Main Branch
+name: Cart CI-PR
 on:
-  workflow_dispatch:
   push:
-    branches:
-      - main
+    paths:
+      - '*'
 jobs:
   call-common:
     uses: manjudevopszone/github-actions-reusable/.github/workflows/ci.yaml@main
