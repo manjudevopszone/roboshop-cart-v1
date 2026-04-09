@@ -1,4 +1,4 @@
-name: Cart CI-PR
+name: Cart CI-PR Branch
 on:
   push:
     paths:
