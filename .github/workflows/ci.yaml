@@ -6,6 +6,6 @@ on:
       - main
 jobs:
   call-common:
-    uses: manjudevopszone/github-actions-reusable/.github/workflows/ci-main.yaml@main
+    uses: manjudevopszone/github-actions-reusable/.github/workflows/ci-auth-service.yaml@main
     with:
       component: cart
